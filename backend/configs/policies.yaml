@@ -1,0 +1,13 @@
+# Redaction Policies by PII Type
+PERSON: mask
+PHONE: replace  # 98xxxxxx12 -> ********12
+EMAIL: mask
+AADHAAR: mask
+PAN: mask
+IFSC: mask
+ACCOUNT_NO: mask
+SIGNATURE: blur
+FACE: blur
+STAMP: mask
+DATE: mask
+ORG: mask

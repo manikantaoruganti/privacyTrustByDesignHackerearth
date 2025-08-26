@@ -1,0 +1,27 @@
+# DocuShield AI Configuration
+ocr:
+  lang: en
+  min_confidence: 0.5
+
+layout:
+  score_threshold: 0.25
+
+ner:
+  min_confidence: 0.6
+  enable_rules: true
+
+visual:
+  face_threshold: 0.5
+  signature_threshold: 0.35
+
+redaction:
+  padding_px: 4
+  mode: mask  # mask | blur | replace
+
+io:
+  max_pdf_mb: 200
+  use_ramdisk: true
+
+logs:
+  level: INFO
+  audit_enabled: true

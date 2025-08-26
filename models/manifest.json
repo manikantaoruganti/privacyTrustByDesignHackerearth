@@ -1,0 +1,55 @@
+{
+  "models": {
+    "paddleocr": {
+      "det_model": {
+        "path": "paddleocr/ch_PP-OCRv3_det_infer.onnx",
+        "sha256": "placeholder_sha256_for_det_model",
+        "size": "8.7MB"
+      },
+      "rec_model": {
+        "path": "paddleocr/ch_PP-OCRv3_rec_infer.onnx", 
+        "sha256": "placeholder_sha256_for_rec_model",
+        "size": "12.4MB"
+      },
+      "cls_model": {
+        "path": "paddleocr/ch_ppocr_mobile_v2.0_cls_infer.onnx",
+        "sha256": "placeholder_sha256_for_cls_model", 
+        "size": "2.1MB"
+      }
+    },
+    "spacy": {
+      "en_core_web_sm": {
+        "path": "spacy/en_core_web_sm",
+        "sha256": "placeholder_sha256_for_spacy_model",
+        "size": "15.6MB"
+      }
+    },
+    "layout": {
+      "yolov5n_layout": {
+        "path": "layout/yolov5n_layout.onnx",
+        "sha256": "placeholder_sha256_for_layout_model",
+        "size": "3.8MB"
+      }
+    },
+    "visual": {
+      "retinaface": {
+        "path": "visual/retinaface_mobilenet.onnx",
+        "sha256": "placeholder_sha256_for_face_model",
+        "size": "1.7MB"
+      },
+      "signature_detector": {
+        "path": "visual/signature_yolov5n.onnx", 
+        "sha256": "placeholder_sha256_for_signature_model",
+        "size": "2.3MB"
+      },
+      "stamp_detector": {
+        "path": "visual/stamp_yolov5n.onnx",
+        "sha256": "placeholder_sha256_for_stamp_model",
+        "size": "2.1MB"
+      }
+    }
+  },
+  "version": "1.0.0",
+  "created": "2024-01-01T00:00:00Z",
+  "description": "DocuShield AI Model Manifest - All models are vendored locally for offline operation"
+}
